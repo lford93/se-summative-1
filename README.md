@@ -1,2 +1,1 @@
-# se-summative-1
-Repository for summative 1
+#  Software Engineering Summative Assignment 1: Report
