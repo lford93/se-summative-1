@@ -23,3 +23,35 @@ This project is for the submission of summative assignment 1 of the Software Eng
 The project will involve creating a Python function that takes input integers and an integer sequence to generate corresponding age bands. The initial design of the product will be outlined in this README file. The project management and planning will be conducted using GitHub Project Boards, where issues will be raised and treated as sprints in an Agile-like methodology. The function will be tested using the pytest library.
 
 The final product will be documented with README documentation and will be evaluated in a dedicated "Evaluation" section of the README.
+
+## Product design
+
+The product for this project is a Python function that can be used by users in various platforms such as Jupyter Notebook, Deepnote, or even in base Python. The function enables users to input integers and a custom age break, and it returns the corresponding age bands for the inputted integers.
+
+### Initial design
+
+The function will have two inputs.
+
+```python
+Python
+def age.groups(age, breaks)
+```
+
+The `age` parameter is where the ages will be specified. These will need to be integer values and the fucntion will need to have checks in place to ensure an integer has been inputted for the function to run.
+
+The second argument will contain the age breaks. It will allow the input of integers that will then be transformed to a sequence in order to split the age input into the desired breaks.
+
+The output will show the corresponding age bands for the inputted integers. For example, if the input is age 15 and the specified age bands are 0-9, 10-19, etc then the input of 15 should return 10-19.
+
+```python
+Python
+ages = 15
+breaks = [0,10,20,30,40] 
+
+print(age.groups(ages, breaks))
+```
+
+```python
+Output
+"10-19"
+```
