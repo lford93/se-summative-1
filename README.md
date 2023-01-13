@@ -81,3 +81,12 @@ The Agile methodology has been used due to the flexibility and focus on sprints 
 
 The scripts for the product have been created using Python on [deepnote](https://deepnote.com/). Deepnote is a web-based platform that allows users to collaborate and built scripts. It combines a Jupyter Notebook with a collaborative code editor using a cloud-based platform to make it easier for teams to work together.
 
+The repository can be connected to deepnote to enable the adding of commits and push them to the repository via a terminal screen using git commands.
+
+![deepnote_integrations](https://user-images.githubusercontent.com/120586818/212341356-c61392ae-5b03-4989-ae33-a8daa745e71d.png)
+
+Using the integrations panel allows for the connection to a GitHub repository.
+
+![deepnote_terminal](https://user-images.githubusercontent.com/120586818/212341874-25e91680-1bb8-457a-b9c9-e86ed5170dae.png)
+
+Files can be created in deepnote directly into the repository. These files can then be added and pushed to the repository. Any additional changes are tracked and can be added then commited and finally pushed to the repository. The files created in deepnote will be managed in this way.
