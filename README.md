@@ -55,3 +55,6 @@ print(age.groups(ages, breaks))
 Output
 "10-19"
 ```
+### Design testing
+
+The function will be built iteratively. Using [pytest](https://docs.pytest.org/en/7.2.x/), the function will continously be tested after each iteration. This will ensure that the function outputs are what should be expected. It will also help make sure the final product will deliver what has been outlined.
