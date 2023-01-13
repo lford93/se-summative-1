@@ -117,3 +117,17 @@ def testing():
 
 doctest.testmod(verbose=True)
 ```
+
+## Testing MVP
+
+The MVP is a basic version of the designed function. The function has been designed to allow the input of an age or several ages. These ages should then be converted to their corresponding age band based on 10-year age bands. The function is now ready for some extensive testing.
+
+![doctest1](https://user-images.githubusercontent.com/120586818/212416407-020efa43-87b6-4abb-85cc-a0a5101ea81a.png)
+
+It looks like the function has failed at the very first hurdle. The error received is:
+
+```python
+ValueError: Input array must be 1 dimensional
+```
+
+The problem seems to be related to the input. The input needs to be converted to an array before anything else in the function. This will be raised as an issue to be dealt with in a new commit and pull request.
