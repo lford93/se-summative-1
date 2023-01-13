@@ -55,6 +55,13 @@ print(age.groups(ages, breaks))
 Output
 "10-19"
 ```
+The minimal viable product (MVP) will not allow the separate input for breaks and will instead just allow the user to input ages. The breaks used in the  will be 10 year age groups.
+
 ### Design testing
 
 The function will be built iteratively. Using [pytest](https://docs.pytest.org/en/7.2.x/), the function will continously be tested after each iteration. This will ensure that the function outputs are what should be expected. It will also help make sure the final product will deliver what has been outlined.
+
+### Building the product
+
+The scripts for the product have been created using Python on [deepnote](https://deepnote.com/). Deepnote is a web-based platform that allows users to collaborate and built scripts. It combines a Jupyter Notebook with a collaborative code editor using a cloud-based platform to make it easier for teams to work together.
+
