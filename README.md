@@ -61,6 +61,22 @@ The minimal viable product (MVP) will not allow the separate input for breaks an
 
 The function will be built iteratively. Using [pytest](https://docs.pytest.org/en/7.2.x/), the function will continously be tested after each iteration. This will ensure that the function outputs are what should be expected. It will also help make sure the final product will deliver what has been outlined.
 
+## Project management
+
+This project will be managed managed using Agile principles. Agile project management is an iterative and flexible approach to managing the development of a product or service. It is based on the Agile Manifesto, a set of guiding values and principles for software development that emphasises the importance of collaboration, flexibility, and customer satisfaction. (Agile Alliance, 2022)
+
+In Agile project management, development is broken down into smaller chunks of work called sprints. At the end of each sprint, the team reviews and demonstrates the work completed during the sprint to the customer. (Agile Alliance, 2022)
+
+For this project GitHub issues will be used as so called sprints. The issues will be raised as small pieces of work for edits to the product and relevant documentation through the project. Another method borrowed from Agile for this project is the Kanban board. GitHub's project area allows for the creation of a Kanban board, this is where the issues's progress will be tracked.
+
+![projectboard](https://user-images.githubusercontent.com/120586818/212328979-73f18518-4d4c-4c5a-b57b-92162b55a6c3.png)
+
+The screenshot above shows the Kanban board being used for this project. Issues raised will fall into the "Todo" category until they are picked up and work beings on them. This is when the so called sprint will start for this piece of work. The changes and additions required for the issue/ task will be carried out. During this period the task will sit in the "In Progress" column. Once the changes have been made, a pull request can be created. During this period the task will move to the "Review" section. The task will be reviewed and if it satisfies the requirements can be moved to completed and the related pull request merged. This task is then finished. If the changes are unsatisfactory, comments can be raised on the pull request and the issue can be moved back to "In Progress" to be started again.
+
+### Why use Agile
+
+The Agile methodology has been used due to the flexibility and focus on sprints the methodology provides. This project needs to be able to change according to needs arising and changing. Using issues as sprints gives the ability to focus on building the project in small blocks iteratively. This allows for finer control, especially when working with scripts where bugs can very easily occur. By breaking the processes down into smaller manageable chunks, there is less risk of bugs occuring and when they do occur, they can be more easily dealt with.
+
 ## Building the product
 
 The scripts for the product have been created using Python on [deepnote](https://deepnote.com/). Deepnote is a web-based platform that allows users to collaborate and built scripts. It combines a Jupyter Notebook with a collaborative code editor using a cloud-based platform to make it easier for teams to work together.
