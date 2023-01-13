@@ -91,6 +91,15 @@ Using the integrations panel allows for the connection to a GitHub repository.
 
 Files can be created in deepnote and then be added and pushed to the repository. Any additional changes are tracked and can be added then commited and finally pushed to the repository. The files created in deepnote will be managed in this way.
 
+The function was enhanced and now takes an input and turns it into an ageband. These changes were made using deepnote. They were then pushed as a new branch to the GitHub repository.
+
+![func_enhancement](https://user-images.githubusercontent.com/120586818/212382781-3a3f730f-6a48-4aae-acc3-ca3fc4f352db.png)
+
+By using this method, the new branch is visible on GitHub. The branch can then be merged to the main branch via a standard pull request. This helps ensure the main branch is not changed without any considerations.
+
+![new_pull_request](https://user-images.githubusercontent.com/120586818/212384021-5e788c5e-7bff-4cb8-a49f-ea4204844de6.png)
+
+
 ## Testing the Product
 
 As stated earlier, [doctest](https://docs.python.org/3/library/doctest.html) will be used to test the function. Each iteration will be tested to ensure the function is performing as expected. Initially, a script has been created to import the function and then test. The script is named [testing.ipynb](https://github.com/lford93/se-summative-1/blob/main/testing.ipynb). 
