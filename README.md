@@ -89,4 +89,22 @@ Using the integrations panel allows for the connection to a GitHub repository.
 
 ![deepnote_terminal](https://user-images.githubusercontent.com/120586818/212341874-25e91680-1bb8-457a-b9c9-e86ed5170dae.png)
 
-Files can be created in deepnote directly into the repository. These files can then be added and pushed to the repository. Any additional changes are tracked and can be added then commited and finally pushed to the repository. The files created in deepnote will be managed in this way.
+Files can be created in deepnote and then be added and pushed to the repository. Any additional changes are tracked and can be added then commited and finally pushed to the repository. The files created in deepnote will be managed in this way.
+
+## Testing the Product
+
+As stated earlier, [doctest](https://docs.python.org/3/library/doctest.html) will be used to test the function. Each iteration will be tested to ensure the function is performing as expected. Initially, a script has been created to import the function and then test. The script is named [testing.ipynb](https://github.com/lford93/se-summative-1/blob/main/testing.ipynb). 
+
+```python
+from age_groups_func import age_groups
+
+import doctest
+
+def testing():
+    """
+    >>> age_groups(1, 1)
+    2
+    """
+
+doctest.testmod(verbose=True)
+```
