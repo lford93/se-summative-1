@@ -61,7 +61,7 @@ The minimal viable product (MVP) will not allow the separate input for breaks an
 
 The function will be built iteratively. Using [pytest](https://docs.pytest.org/en/7.2.x/), the function will continously be tested after each iteration. This will ensure that the function outputs are what should be expected. It will also help make sure the final product will deliver what has been outlined.
 
-### Building the product
+## Building the product
 
 The scripts for the product have been created using Python on [deepnote](https://deepnote.com/). Deepnote is a web-based platform that allows users to collaborate and built scripts. It combines a Jupyter Notebook with a collaborative code editor using a cloud-based platform to make it easier for teams to work together.
 
