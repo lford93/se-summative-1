@@ -27,6 +27,10 @@ def age_groups(ages):
     --------
     >>> 
     """
+    # ages needs to be an array
+    if type(ages) == int:
+        ages = [ages]
+
     # these are the default age breaks
     breaks = np.linspace(start=0, stop=90, num=10)
     
