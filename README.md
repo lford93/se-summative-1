@@ -131,3 +131,5 @@ ValueError: Input array must be 1 dimensional
 ```
 
 The problem seems to be related to the input. The input needs to be converted to an array before anything else in the function. This will be raised as an issue to be dealt with in a new commit and pull request.
+
+Bug was fixed in pull request https://github.com/lford93/se-summative-1/pull/30 and issue was closed.
