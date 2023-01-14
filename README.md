@@ -24,6 +24,42 @@ The project will involve creating a Python function that takes input integers an
 
 The final product will be documented with README documentation and will be evaluated in a dedicated "Evaluation" section of the README.
 
+## Prerequisites and using the MVP
+
+In order to run the script to convert an age to an age band there are several files and programmes required.
+
+1. Install a Jupyter notebook, use deepnote or use another programme or facility that allows the use of Python and Juypter notebook files.
+2. Ensure the necessary libraries are installed onto your system or the cloud system being used. To install the libraries required use the `pip install` command from a terminal.
+
+```
+pip install numpy
+pip install pandas
+pip install regex
+```
+
+3. Download the (age_groups_func.py)[https://github.com/lford93/se-summative-1/blob/main/age_groups_func.py] file and (create_age_groups.ipynb)[https://github.com/lford93/se-summative-1/blob/main/create_age_groups.ipynb] file and save to the same folder.
+4. The create_age_groups.ipynb can be opened and ages entered onto line 5.
+
+```python
+Python
+# please enter ages to be coverted to an age band separated by commas
+# example:
+    # ages = 30, 46, 78
+# output will be shown in the fourth code block
+ages = 
+```
+
+5. The output will be shown in the fourth code block and can be expected to be seen as below.
+
+```python
+# print the output
+print(output)
+     
+['10-19']
+```
+
+6. Alternatively, those with Python knowledge can download the (age_groups_func.py)[https://github.com/lford93/se-summative-1/blob/main/age_groups_func.py] script and import the function to be used as seen fit.
+
 ## Product design
 
 The product for this project is a Python function that can be used by users in various platforms such as Jupyter Notebook, Deepnote, or even in base Python. The function enables users to input integers and a custom age break, and it returns the corresponding age bands for the inputted integers.
