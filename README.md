@@ -178,3 +178,5 @@ These tests were carried out using the [testing.ipynb](https://github.com/lford9
 ![doctest2](https://user-images.githubusercontent.com/120586818/212474818-ef8c3df1-e712-4a44-9657-e6c64e022d28.png)
 
 As shown in the screenshot, the tests were ran through doctest. All the tests were attempted and succesfully passed. The detail of each test can be seen in the screenshot above.
+
+With this testing complete, I am happy for the MVP to be released and shown to the business. It could also be deployed, but there is currently no error handling within the function itself. There is also no checks for unexpected inputs from users. This is something would be an extra enhancement for to be completed before the full release of the product.
