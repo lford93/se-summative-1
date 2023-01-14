@@ -133,3 +133,48 @@ ValueError: Input array must be 1 dimensional
 The problem seems to be related to the input. The input needs to be converted to an array before anything else in the function. This will be raised as an issue to be dealt with in a new commit and pull request.
 
 Bug was fixed in pull request https://github.com/lford93/se-summative-1/pull/30 and issue was closed.
+
+Further testings was conducted after the bug fix. The function needs to be tested with several inputs to check the correct outpot is given. Using the code below, the function was more extensively tested.
+
+```python
+Python
+def testing():
+    """
+    >>> print(age_groups(1))
+    ['0-9']
+    """
+
+def testing1():
+    """
+    >>> print(age_groups(10))
+    ['10-19']
+
+    """
+
+def testing2():
+    """
+    >>> print(age_groups(55))
+    ['50-59']
+
+    """
+
+def testing3():
+    """
+    >>> print(age_groups([1, 10, 55]))
+    ['0-9' '10-19' '50-59']
+
+    """
+
+def testing4():
+    """
+    >>> print(age_groups([5, 15, 25, 35, 45, 55, 65, 75, 85]))
+    ['0-9' '10-19' '20-29' '30-39' '40-49' '50-59' '60-69' '70-79' '80-89']
+
+    """
+```
+
+These tests were carried out using the [testing.ipynb](https://github.com/lford93/se-summative-1/blob/main/testing.ipynb) script.
+
+![doctest2](https://user-images.githubusercontent.com/120586818/212474818-ef8c3df1-e712-4a44-9657-e6c64e022d28.png)
+
+As shown in the screenshot, the tests were ran through doctest. All the tests were attempted and succesfully passed. The detail of each test can be seen in the screenshot above.
