@@ -180,3 +180,12 @@ These tests were carried out using the [testing.ipynb](https://github.com/lford9
 As shown in the screenshot, the tests were ran through doctest. All the tests were attempted and succesfully passed. The detail of each test can be seen in the screenshot above.
 
 With this testing complete, I am happy for the MVP to be released and shown to the business. It could also be deployed, but there is currently no error handling within the function itself. There is also no checks for unexpected inputs from users. This is something would be an extra enhancement for to be completed before the full release of the product.
+
+## MVP implementation
+
+The MVP can be used via a jupyter notebook script named [create_age_groups.ipynb](https://github.com/lford93/se-summative-1/blob/main/create_age_groups.ipynb). This script is very simple and allows the user to input some ages into an object. This object is then ran through the age_groups function and the output is printed into the script.
+
+![create_age_groups_screenshot](https://user-images.githubusercontent.com/120586818/212476089-1f451b3a-0b9d-4f7f-943d-868d2dcfcc81.png)
+
+An issue with this implementation is that it does require the user to have some Python knowledge or technical savviness. The user needs to enter integers into the object being created. This could very easily become an issue if they type in the wrong place or accidentally delete something. 
+
